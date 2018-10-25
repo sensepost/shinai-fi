@@ -11,8 +11,13 @@ If you're running docker-ce on macOS or Windows, the fake docker host doesn't ha
 
 ## Get it
 
+Pull it from docker hub.
 ```
 docker pull singelet/shinai-fi:latest
+```
+or build the container yourself
+```
+docker build -t shinari-fi .
 ```
 
 ## Run it
