@@ -34,7 +34,7 @@ RUN apt-get update && apt-get install -y \
 && rm -rf /var/lib/apt/lists/*
 
 COPY /attacker/*.sh /opt/sensepost/bin/
-COPY /caps/merged.cap /opt/sensepost/capture/sensepost.cap
+COPY /caps/wpa-induction.cap /opt/sensepost/capture/sensepost.cap
 COPY /attacker/wpasup.conf /opt/sensepost/etc/wpasup.conf
 
 RUN chmod +x /opt/sensepost/bin/wifi-replay.sh \
