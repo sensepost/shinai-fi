@@ -17,7 +17,7 @@ docker pull singelet/shinai-fi:latest
 ```
 or build the container yourself
 ```
-docker build -t shinari-fi .
+docker build -t shinai-fi .
 ```
 
 ## Run it
